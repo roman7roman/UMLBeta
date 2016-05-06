@@ -1,0 +1,48 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="categoria_notificaciones"
+        android:title="@string/categoria_notificaciones">
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/lista_frecuencia"
+            android:entryValues="@array/lista_valores_frecuencia"
+            android:key="@string/key_preferencia"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:summary="%s"
+            android:title="@string/titulo_preferencia" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:key="categoria_sonido"
+        android:title="Configuracion Sonido">
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/lista_sonidos"
+            android:entryValues="@array/lista_valores_sonido"
+            android:key="Sonido"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:summary="%s"
+            android:title="Habilitar o deshabilitar sonido"
+            />
+</PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="categoria_tema"
+        android:title="Temas de la aplicacion"
+        />
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/lista_tema"
+        android:entryValues="@array/lista_valores_temas"
+        android:key="Temas"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:summary="%s"
+        android:title="Habilitar o deshabilitar sonido"
+        />
+
+</PreferenceScreen>

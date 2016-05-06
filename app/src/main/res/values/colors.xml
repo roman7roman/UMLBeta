@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Color de fondo -->
+    <color name="window_background">#ffffff</color>
+    <color name="primaryDarkColor">#323232</color>
+    <color name="primaryColor">#82B1FF</color>
+    <!--Color de la descripcion -->
+    <color name="accentColor">#F87652</color>
+    <!--Color de fondo categorias-->
+    <color name="background_footer_item_grid_categorias">#90000000</color>
+    <color name="color_light">#ffffff</color>
+    <!--Color de fondo de la seccion de inicio-->
+    <color name="background_header_seccion_inicio">#4B4B4B</color>
+
+    <color name="colorMorado">#631eac</color>
+
+    <color name="username0">#e21400</color>
+    <color name="username1">#91580f</color>
+    <color name="username2">#f8a700</color>
+    <color name="username3">#f78b00</color>
+    <color name="username4">#58dc00</color>
+    <color name="username5">#287b00</color>
+    <color name="username6">#a8f07a</color>
+    <color name="username7">#4ae8c4</color>
+    <color name="username8">#3b88eb</color>
+    <color name="username9">#3824aa</color>
+    <color name="username10">#a700ff</color>
+    <color name="username11">#d300e7</color>
+
+
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="capitulo">
+        <item>UML</item>
+    </string-array>
+
+    <string-array name="capitulos_titulo">
+        <item>Introduccion a ajax</item>
+        <item>Primeros pasos en ajax</item>
+        <item>Tecnicas basicas con ajax</item>
+        <item>Tecnicas abanzadas con ajax</item>
+        <item>Javascript basico</item>
+         <!--  5 items -->
+    </string-array>
+
+
+    <string-array name="videos">
+        <item>Introducción a UML</item>
+        <item>Casos de Uso</item>
+        <item>Diagramas de Actividad</item>
+        <item>Diagramas de Estado</item>
+        <item>Diagramas de Interaccion</item>
+        <!--  5 items -->
+    </string-array>
+
+    <string-array name="ajax_contenido">
+        <item>En este capitulo conoceras las principales caracteristicas de ajax...</item>
+        <item>En este capitulo aprenderas sobre los primeros pasos de ajax y el crecimiento de esta tecnologia...</item>
+        <item>En este capitulo aprenderas conceptos basicos sobre ajax...</item>
+        <item>En este capitulo aprenderas conceptos avanzados y especializados sobre ajax...</item>
+        <item>Aprenderas la sintaxis entre otras cosas basicas para aprender este lenguaje de programacion..</item>
+    </string-array>
+
+    <string-array name="capitulos_contenido_completo">
+        <item>El término AJAX se presentó por primera vez en el artículo publicado por
+            Jesse James Garrett el 18 de Febrero de 2005. Hasta ese momento, no existía un
+            término normalizado que hiciera referencia a un nuevo tipo de aplicación web que estaba
+            apareciendo.\n
+
+            \n
+            En realidad, el término AJAX es un acrónimo de Asynchronous JavaScript + XML, que se puede
+            traducir como "JavaScript asíncrono + XML".
+            El artículo define AJAX de la siguiente forma:
+            “ Ajax no es una tecnología en sí mismo. En realidad, se trata de varias tecnologías
+            independientes que se unen de formas nuevas y sorprendentes.”\n
+            Las tecnologías que forman AJAX son:\n
+            ▪ XHTML y CSS, para crear una presentación basada en estándares.\n
+            ▪ DOM, para la interacción y manipulación dinámica de la presentación.\n
+            ▪ XML, XSLT y JSON, para el intercambio y la manipulación de información.\n
+            ▪ XMLHttpRequest, para el intercambio asíncrono de información.\n
+            ▪ JavaScript, para unir todas las demás tecnologías.\n Desarrollar aplicaciones AJAX
+            requiere un conocimiento avanzado de todas y de cada una
+            de las tecnologias anteriores.
+        </item>
+
+        <item>La historia de AJAX está íntimamente relacionada con un objeto de programación llamado
+            XMLHttpRequest. El origen de este objeto se remonta al año 2000, con productos como
+            Exchange 2000, Internet Explorer 5 y Outlook Web Access.\n
+
+            \n
+            En este caso, una aplicación JavaScript descarga un archivo del servidor y muestra su
+            contenido sin necesidad de recargar la página.\n\n
+            \n
+
+              script type="text/javascript">\n
+                 function descargaArchivo() {\n
+                   //Obtener la instancia del objeto XMLHttpRequest\n
+                   if(window.XMLHttpRequest) {\n
+                     peticion_http = new XMLHttpRequest();\n
+                   }\n
+            \n
+            En el ejemplo anterior, cuando se carga la página se ejecuta el método JavaScript que
+            muestra el contenido de un archivo llamado holamundo.txt que se encuentra en el servidor.
+            La clave del código anterior es que la petición HTTP y la descarga de los contenidos del
+            archivo se realizan sin necesidad de recargar la página.\n
+
+            \n
+            Los navegadores que siguen los estándares (Firefox, Safari, Opera, Internet Explorer 7 y 8)
+            implementan el objeto XMLHttpRequest de forma nativa, por lo que se puede obtener a través del
+            objeto window. Los navegadores obsoletos (Internet Explorer 6 y anteriores) implementan el
+            objeto XMLHttpRequest como un objeto de tipo ActiveX.
+            Una vez obtenida la instancia del objeto XMLHttpRequest, se prepara la función que se encarga
+            de procesar la respuesta del servidor. La propiedad onreadystatechange del objeto
+            XMLHttpRequest permite indicar esta función directamente incluyendo su código mediante una
+            función anónima o indicando una referencia a una función independiente. En el ejemplo anterior
+            se indica directamente el nombre de la función:\n
+
+            \n
+            peticion_http.onreadystatechange = muestraContenido;
+        </item>
+
+        <item> Algunas aplicaciones web disponen de varias listas desplegables asi como cajas de texto
+            donde el usuario puede autocompletar. Las tecnicas que se utilizan para desarrollar
+            estas actividades normalmente requieren de un conocimiento avanzado de Ajax.\n
+
+            \n
+            Algunas aplicaciones web multi-idioma disponen de la posibilidad de introducir
+            información en muchos idiomas diferentes. El principal problema de estas aplicaciones es
+            que el teclado físico que utiliza el usuario no siempre corresponde al idioma en el que
+            se quieren introducir los contenidos.\n
+
+            \n
+            La solución habitual de este problema consiste en mostrar un teclado virtual en la
+            pantalla que muestre el valor correcto para cada tecla del idioma seleccionado por el
+            usuario.\n
+
+            \n
+            Algunas veces, se presenta al usuario un cuadro de texto en el que tiene que introducir
+            un valor que pertenece a un grupo muy grande de datos. Algunos casos habituales son:\n
+            \n
+            una dirección decorreo electrónico que pertenezca a la libreta de direcciones del
+            usuario, el nombre válido de un municipio de un país, el nombre de un empleado de una
+            empresa grande, etc.
+            \n
+            La solucion obviamente seria poner un cuadro de texto donde el usuario escriba las
+            palabras iniciales de lo que desea buscar facilitando asi al usuario el rango de posibilidades.
+
+
+        </item>
+
+        <item>Las aplicaciones JavaScript ejecutadas en los navegadores tienen unas restricciones muy
+            estrictas en cuanto a su seguridad. Además de no poder acceder a recursos locales como
+            archivos y directorios, los scripts solamente pueden realizar conexiones de red con el
+            mismo dominio al que pertenece la aplicación JavaScript.
+
+            \n
+            La sindicación de contenidos mediante protocolos como RSS y Atom ha permitido que los
+            sitios web puedan compartir fácilmente sus noticias, artículos, entradas de
+            blogs y muchos otros contenidos digitales. Aunque RSS es un conjunto de formatos y
+            protocolos, en su forma última es un archivo XML que incluye los contenidos que quiere
+            compartir el servidor web. La sencillez del formato y la posibilidad de procesar archivos
+            XML con JavaScript hacen que RSS sea ideal para desarrollar aplicaciones AJAX que traten
+            con sus contenidos.
+        </item>
+
+        <item>
+            La sintaxis de un lenguaje de programación se define como el conjunto de reglas que deben
+            seguirse al escribir el código fuente de los programas para considerarse como correctos
+            para ese lenguaje de programación. La sintaxis de JavaScript es muy similar a la de otros
+            lenguajes como Java y C. Las normas básicas que definen la sintaxis de JavaScript son las siguientes:\n
+
+            \n
+            ▪ No se tienen en cuenta los espacios en blanco y las nuevas líneas: como sucede con
+            XHTML, el intérprete de JavaScript ignora cualquier espacio en blanco sobrante, por lo
+            queel código se puede ordenar de forma adecuada para su manejo (tabulando las líneas,
+            añadiendo espacios, creando nuevas líneas, etc.)\n
+
+            \n
+            ▪ Se distinguen las mayúsculas y minúsculas: al igual que sucede con la sintaxis de las
+            etiquetas y elementos XHTML. Sin embargo, si en una página XHTML se utilizan indistintamente
+            mayúsculas y minúsculas, la página se visualiza correctamente y el único problema es que
+            la página no valida. Por el contrario, si en JavaScript se intercambian mayúsculas y
+            minúsculas, las aplicaciones no funcionan correctamente.\n
+
+            \n
+            ▪ No se define el tipo de las variables: al definir una variable, no es necesario indicar
+            el tipo de dato que almacenará. De esta forma, una misma variable puede almacenar
+            diferentes tipos de datos durante la ejecución del programa.\n
+
+        </item>
+
+
+
+    </string-array>
+    <string-array name="type" />
+
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_inicio"
+            android:checked="true"
+            android:icon="@drawable/inicio"
+            android:title="@string/item_inicio" />
+        <item
+            android:id="@+id/item_capitulos"
+            android:icon="@drawable/categorias"
+            android:title="@string/capitulos" />
+        <item
+            android:id="@+id/item_configuracion"
+            android:icon="@drawable/configuracion"
+            android:title="@string/item_configuracion" />
+        <item
+            android:id="@+id/item_acerca"
+            android:icon="@drawable/ic_action_about"
+            android:title="@string/item_acerca" />
+        <item
+            android:id="@+id/item_videos"
+            android:icon="@drawable/ic_action_play_over_video"
+            android:title="@string/item_videos" />
+        <item
+            android:id="@+id/item_audios"
+            android:icon="@drawable/ic_action_headphones"
+            android:title="@string/item_enciar_audios" />
+        <item
+            android:id="@+id/item_juego"
+            android:icon="@drawable/ic_action_star"
+            android:title="@string/item_juego" />
+
+        <item
+            android:id="@+id/item_grafica"
+            android:icon="@drawable/ic_action_go_to_today"
+            android:title="@string/graphic" />
+        <item
+            android:id="@+id/item_card"
+            android:icon="@drawable/ic_action_email"
+            android:title="@string/graphic_point" />
+        <item
+            android:id="@+id/item_correo"
+            android:icon="@drawable/ic_action_email"
+            android:title="@string/certificate" />
+
+    </group>
+
+</menu>

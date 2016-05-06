@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ActividadPrincipal">
+
+    <item
+        android:id="@+id/itm_menu_ayuda_sugerencia"
+        android:orderInCategory="100"
+        android:title="Menu Principal"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:id="@+id/itm_salir"
+        android:orderInCategory="100"
+        android:title="Salir"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:id="@+id/itm_video_introduccion"
+        android:orderInCategory="100"
+        android:title="Ver video"
+        app:showAsAction="never">
+    </item>
+
+    <item android:id="@+id/itm_ayuda"
+        android:orderInCategory="100"
+        android:title="Ayuda"
+        app:showAsAction="never">
+
+    </item>
+</menu>

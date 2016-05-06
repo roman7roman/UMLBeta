@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="arrayPalabras">
+        <item>Uml</item>
+        <item>Clase</item>
+        <item>CasoUso</item>
+        <item>Actividad</item>
+        <item>Interaccion</item>
+        <item>Modelado</item>
+        <item>Unificado</item>
+        <item>Lenguaje</item>
+    </string-array>
+</resources>

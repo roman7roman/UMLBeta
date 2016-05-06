@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#20034c">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/graphics_topic"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/window_background"
+        android:id="@+id/textView6" />
+    <Button
+        android:layout_width="94dp"
+        android:layout_height="36dp"
+        android:text="Enviar resultado"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:onClick="enviarCorreo"
+        android:textColor="@color/cardview_light_background"
+        android:background="#0083fd"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true" />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="3dp"
+        android:stretchColumns="1"
+        android:shrinkColumns="*"
+        android:layout_marginTop="450dp">
+
+    </TableLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

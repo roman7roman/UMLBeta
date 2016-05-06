@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.quiz.FormularioInterno"/>
+      <point      
+        x = "-380"      
+        y = "1016"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.login.ReadComments"/>
+      <point      
+        x = "-252"      
+        y = "1456"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.database.Display"/>
+      <point      
+        x = "-140"      
+        y = "320"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.grafica.GraficoActivityDos"/>
+      <point      
+        x = "-200"      
+        y = "948"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.ui.TabsActivity"/>
+      <point      
+        x = "1044"      
+        y = "188"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.MenuGaleriaActivity"/>
+      <point      
+        x = "1836"      
+        y = "388"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.correo.EnviarCorreoActivity"/>
+      <point      
+        x = "1384"      
+        y = "1744"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.ahorcado_jsf.MainAhorcado"/>
+      <point      
+        x = "1304"      
+        y = "444"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.otros.ActividadPrincipal"/>
+      <point      
+        x = "1200"      
+        y = "1592"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.otros.TabsActivity"/>
+      <point      
+        x = "-664"      
+        y = "1228"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.ui.PrivilegiosActivity"/>
+      <point      
+        x = "72"      
+        y = "424"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.quiz.Grafica"/>
+      <point      
+        x = "-424"      
+        y = "1388"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.quiz.LoginInterno"/>
+      <point      
+        x = "-508"      
+        y = "1480"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.quiz.PreguntaActivity"/>
+      <point      
+        x = "1016"      
+        y = "1900"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.otros.Radio_Layaout"/>
+      <point      
+        x = "1552"      
+        y = "8"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.ui.AyudaActivity"/>
+      <point      
+        x = "3268"      
+        y = "32"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.database.Ingresar"/>
+      <point      
+        x = "1540"      
+        y = "348"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.quiz.ResultadoActivity"/>
+      <point      
+        x = "1404"      
+        y = "1640"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.ahorcado_jsf.JuegoActivity"/>
+      <point      
+        x = "1064"      
+        y = "240"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.otros.PrivilegiosActivity"/>
+      <point      
+        x = "1240"      
+        y = "1932"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.ui.ActividadVideo"/>
+      <point      
+        x = "1004"      
+        y = "788"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.LoginActivity"/>
+      <point      
+        x = "2064"      
+        y = "-224"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.otros.Cronometro"/>
+      <point      
+        x = "2404"      
+        y = "-336"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.login.Login"/>
+      <point      
+        x = "-592"      
+        y = "1580"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.LogoActivity"/>
+      <point      
+        x = "8"      
+        y = "28"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.otros.ActividadAudio"/>
+      <point      
+        x = "724"      
+        y = "1804"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.ui.SplashActivity"/>
+      <point      
+        x = "36"      
+        y = "524"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.ui.ActividadPrincipal"/>
+      <point      
+        x = "244"      
+        y = "28"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.ui.ActividadAudio"/>
+      <point      
+        x = "1432"      
+        y = "600"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.otros.CapitulosActivity"/>
+      <point      
+        x = "1240"      
+        y = "1592"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.GaleriaTresActivity"/>
+      <point      
+        x = "2132"      
+        y = "552"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.otros.ActividadVideo"/>
+      <point      
+        x = "1264"      
+        y = "1632"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.GaleriaUnoActivity"/>
+      <point      
+        x = "2156"      
+        y = "1740"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.otros.SplashActivity"/>
+      <point      
+        x = "1104"      
+        y = "1696"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.GaleriaDosActivity"/>
+      <point      
+        x = "2096"      
+        y = "712"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.otros.ActividadConfiguracion"/>
+      <point      
+        x = "948"      
+        y = "1788"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.otros.AyudaActivity"/>
+      <point      
+        x = "-516"      
+        y = "1888"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.ahorcado_uml.MainAhorcado"/>
+      <point      
+        x = "-140"      
+        y = "-40"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.otros.Linterna"/>
+      <point      
+        x = "876"      
+        y = "44"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.ahorcado_uml.JuegoActivity"/>
+      <point      
+        x = "812"      
+        y = "1656"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.login.Register"/>
+      <point      
+        x = "1116"      
+        y = "1748"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.ui.ActividadConfiguracion"/>
+      <point      
+        x = "2296"      
+        y = "24"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.herprogramacion.uml.ui.CapitulosActivity"/>
+      <point      
+        x = "1424"      
+        y = "456"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

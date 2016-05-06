@@ -1,0 +1,313 @@
+<resources>
+
+    <!--Register -->
+    <string name="username">Nombre del Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="email">Email</string>
+    <string name="btm_login">Ingresar</string>
+    <string name="title_activity_login">Login</string>
+    <string name="registration_instruction">Si no tiene un nombre y contraseña. Haga clic en el botón de abajo para registrarse</string>
+    <string name="register_button">Registrate Hora</string>
+    <string name="title_activity_register">Registrate Ahora</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="is_login">Usted a iniciado session con extito</string>
+    <string name="sign_up">Registrate Ahora</string>
+    <!--LOgin -->
+
+    <string name="app_name">"UML"</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_buscar">Buscar</string>
+    <string name="titulo_otros_cursos">Bienvenido a UML</string>
+    <string name="texto_no_tarjetas">No tienes ninguna tarjeta asociada</string>
+    <string name="etiqueta_universidad">UTNG</string>
+    <string name="texto_cambiar_contrasena">Cambia tu contraseña</string>
+    <string name="etiqueta_comunicate">Enviame Un Correo</string>
+
+    <!--ITEMS -->
+    <string name="item_desarrollador">Desarrollador</string>
+    <string name="item_acerca">Acerca</string>
+    <string name="item_login">Login</string>
+    <string name="item_inicio">Inicio</string>
+    <string name="item_cuenta">Mi Cuenta</string>
+    <string name="item_categorias">Categorías</string>
+    <string name="item_configuracion">Configuración</string>
+    <string name="item_juego">Ahorcado UML</string>
+    <string name="item_videos">Videos</string>
+    <string name="item_enciar_correo">Enviar Correo</string>
+    <string name="item_enciar_audios">Audios</string>
+    <!--ITEMS -->
+
+    <!--TABS -->
+    <string name="tab_foro">Video Ayuda</string>
+    <string name="pestaña_pulsada">"Pestaña Pulsada: "</string>
+    <string name="titulo_tab_capitulos">CAPITULOS</string>
+    <string name="titulo_tab_Videos">VIDEOS</string>
+    <string name="titulo_tab_Material">MATERIAL</string>
+    <string name="titulo_tab_perfil">PERFIL</string>
+    <string name="titulo_tab_direcciones">DIRECCIONES</string>
+    <string name="titulo_tab_desarrollador">DESARROLLADOR</string>
+    <string name="titulo_tab_tarjetas">TARJETAS</string>
+    <!--TABS -->
+
+    <!-- ETIQUETAS -->
+    <string name="texto_envia_correo">Enviar</string>
+    <string name="etiqueta_info_usuario">usuario</string>
+    <string name="etiqueta_contrasena">contraseña</string>
+    <string name="etiqueta_info_desarrollador">Desarrollador</string>
+    <!-- ETIQUETAS -->
+
+    <!-- FOTOS -->
+    <string name="titulo_tab_foto">FOTO</string>
+    <string name="etiqueta_info_foto">Foto</string>
+    <!-- FOTOS -->
+
+    <!-- LOGIN -->
+    <string name="hello_blank_fragment">Fragmento vacio</string>
+    <string name="nombre">Ingrese el nombre de usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="correo">Correo</string>
+    <string name="agregar">Agregar Usuario</string>
+    <string name="nombre_info">Nombre</string>
+    <string name="contraseña_info">Ingrese una contraseña</string>
+    <string name="correo_info">Ingrese su correo electronico</string>
+    <string name="nuevo_usuario">Nuevo Usuario</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="emptyString" />
+    <!-- LOGIN -->
+
+    <!-- Ayuda -->
+    <string name="Ayuda">En esta pestana te brindamos ayuda Si tienes alguna duda envia un correo
+        al desarrollador.\n Su correo esta  en el tab de acerca de. Tambien puedes modificar las
+        preferencias en la ventana de configuracion que esta dentro  del slide o si prefieres enviar
+        un correo electronicopresiendo el boton de abajo.
+       </string>
+    <!-- Ayuda -->
+
+    <!-- TEXTOS GRANDES -->
+    <string name="list_descripcion_videos">Hola en esta seccion podras reproducir cada uno de los
+        videos que te ayudaran a comprender aun mas UML, te invitamos a
+        que veas los videos, Aprende y Diviertete al mismo tiempo!!</string>
+    <string name="list_descripcion_audios">Aqui te damos la oportunidad de reproducir musica ajena al tema
+    para que te distraigas y sigas con el curso. Tenemos la mejor musica.</string>
+    <string name="list_descripcion_material">Hola en esta seccion podras buscar aun mas informacion
+        asi como encontrar foros, ejemplos y documentos que te ayuden a aprender aun mas sobre UML
+        te dejamos los siguientes links, DIVIERTETE!!</string>
+    <!-- TEXTOS GRANDES -->
+
+
+    <string name="position">posicion</string>
+    <string name="itm_quiz">Quiz</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="menu_settings">Menu</string>
+    <string name="capitulos">Capitulos</string>
+
+    <string name="abrir">Abrir</string>
+    <string name="omitir">omitir</string>
+    <string name="Bienvenida">Felicidades, acabas de registrarte, presiona el boton de inicio para ingresar al curso.</string>
+    <string name="privilegios">Si quieres tener acceso total a la aplicacion
+        registrate precionando el boton que esta en la parte inferior.</string>
+    <string name="Privilegios_introduccion">Lenguaje Unificado de Modelado (UML, por sus siglas en inglés, Unified Modeling Language) es el lenguaje de modelado de sistemas de software más conocido y utilizado en la actualidad; está respaldado por el OMG (Object Management Group).</string>
+    <!-- TEXTOS GRANDES -->
+
+    <!-- ARREGLOS -->
+
+
+    <string-array name="audios">
+        <item>Cartel de Santa - Volar Volar</item>
+        <item>Cartel de Santa - Suena Mamalona</item>
+        <item>Cartel de Santa - Si te vienen a contar</item>
+        <item>Cartel de Santa - Don de dios</item>
+        <item>Cartel de Santa - Me alegro de su odio</item>
+    </string-array>
+
+    <string-array name="material">
+        <item>Descargar PDF Introduccion a Ajax Javier Eguíluz Pérez</item>
+        <item>Blog más popular dedicado al mundo AJAX.</item>
+        <item>Librerías y frameworks</item>
+        <item>Decenas de ejemplos reales de aplicaciones AJAX listas para descargar
+            (galerías de imágenes, reflejos para imágenes, formularios, tablasreordenables, etc.)
+        </item>
+    </string-array>
+
+    //Capitulos
+    <string name="introduccion_uml">
+        ¿Qué es el UML?
+    \n
+        El lenguaje unificado de modelado o UML (Unified Modelillg
+        Lenguage) es el sucesor de la oleada de métodos de análisis y diseño
+        orientados a objetos (OOAD) que surgió a fi nales de la década de
+        1980 y principios de la siguiente. El UML unifica, sobre todo, los
+        métodos de Rumbaugh (OMT) y Jacobson, pero su alcance
+        ll egará a ser mucho más amplio. En estos momentos el UML está
+        en pleno proceso de estandarización con el OMG (Object Mallagemell
+        Group o Grupo de administración de objetos) y estoy seguro de que se
+        convertirá en el lenguaje de modelado estándar del futuro.
+        Decimos, pues, que el UML es un lenguaje de modelado, y no un
+        método. La mayor parte de los métodos consisten, al menos en principio,
+        en un lenguaje y en un proceso para modelar. El lenguaje de
+        modelado es la notación (principalmente gráfica) de que se valen los
+        métodos para expresar los diseños. El proceso es la orientación que
+        nos dan sobre los pasos a seguir para hacer el diseño.
+        Las partes que tratan sobre el proceso en muchos libros de métodos
+        son más bien esquemáticas. Más aún, considero que la mayoría de las
+        personas que dicen estar usando un método están usando en realidad
+        un lenguaje de modelado, pero rara vez siguen el proceso. Así pues,
+        en gran medida el lenguaje de modelado es la parte más mejor.
+
+    </string>
+
+    <string name="casos_uso">
+        En el Lenguaje de Modelado Unificado, un diagrama de casos de uso es una
+        forma de diagrama de comportamiento UML mejorado.
+        El Lenguaje de Modelado Unificado (UML), define una notación gráfica para
+        representar casos de uso llamada modelo de casos de uso. UML no define estándares
+        para que el formato escrito describa los casos de uso, y así mucha gente no entiende
+        que esta notación gráfica define la naturaleza de un caso de uso; sin embargo una
+        notación gráfica puede solo dar una vista general simple de un caso de uso o un
+        conjunto de casos de uso. Los diagramas de casos de uso son a menudo confundidos
+        con los casos de uso. Mientras los dos conceptos están relacionados, los casos de
+        uso son mucho más detallados que los diagramas de casos de uso. En los conceptos se
+        debe detallar más de un caso de uso para poder identificar qué es lo que hace un caso de uso.
+
+        * La descripción escrita del comportamiento del sistema al afrontar una tarea de negocio
+        o un requisito de negocio. Esta descripción se enfoca en el valor suministrado por el sistema
+        a entidades externas tales como usuarios humanos u otros sistemas.
+        * La posición o contexto del caso de uso entre otros casos de uso. Dado que es un mecanismo
+        de organización, un conjunto de casos de uso coherentes y consistentes promueven una imagen
+        fácil de comprender del comportamiento del sistema, un entendimiento común entre el
+        cliente/propietario/usuario y el equipo de desarrollo.
+
+
+    </string>
+
+
+    <string name="diagrama_actividad">
+        Un diagrama de actividades muestra un proceso de negocio o un proceso de software como un
+        flujo de trabajo a través de una serie de acciones.Las personas, los componentes de
+        software o los equipos pueden realizar estas acciones.
+        Puede usar un diagrama de actividades para describir procesos de varios tipos,
+        como los ejemplos siguientes:
+
+        * Un proceso de negocio o un flujo de trabajo entre los usuarios y los sistemas.
+        * Los pasos que se realizan en un caso de uso.
+        * Un protocolo de software, es decir, las secuencias de interacciones entre
+        componentes permitidas.
+        * Un algoritmo de software.
+        * En este tema se describen los elementos que puede usar en los diagramas de
+        actividades.
+
+        En UML un diagrama de actividades se usa para mostrar la secuencia de actividades.
+        Los diagramas de actividades muestran el flujo de trabajo desde el punto de inicio
+        hasta el punto final detallando muchas de las rutas de decisiones que existen en el
+        progreso de eventos contenidos en la actividad. Estos también pueden usarse para detallar
+        situaciones donde el proceso paralelo puede ocurrir en la ejecución de algunas actividades.
+        Los Diagramas de Actividades son útiles para el Modelado de Negocios donde se usan para
+        detallar el proceso involucrado en las actividades de negocio.
+
+    </string>
+
+    <string name="diagrama_estado">
+        Los diagramas de estado
+
+        Los diagramas de estado describen gráficamente los eventos y los estados de los objetos.
+        Los diagramas de estado son útiles, entre otras cosas, para indicar los eventos del sistema
+        en los casos de uso.
+        Unevento es un acontecimiento importante a tomar en cuenta para el sistema. Unes tado es
+        la condición de un objeto en un momento determinado: el tiempo que transcurre entre
+        eventos. Unatr ans ición es una relación entre dos estados, e indica que, cuando ocurre un
+        evento, el objeto pasa del estado anterior al siguiente.
+        En UML, los estados se representan mediante óvalos. Las transiciones se representan
+        mediantes flechas con el nombre del evento respectivo. Se acostumbra poner un estado
+        al inicio.
+
+        Un diagrama de estado representa el ciclo de vida de un objeto: los eventos que le ocurren,
+        sus transiciones, y los estados que median entre estos eventos.
+        En particular, es útil hacer diagramas de estado para describir la secuencia permitida de
+        eventos en los casos de uso. Por ejemplo, en el caso de usocom pr ar Pr oductos no está
+        mpermitido efectuar pago T ar jeta mientras no haya ocurrido el eventoter m inar Venta.
+        Un diagrama de estado que describe los eventos globales del sistema y su secuencia en un
+        caso de uso es un diagrama de estado para casos de uso.
+
+ 
+
+    </string>
+
+    <string name="diagrama_interaccion">
+            \n
+          El diagrama global de las interacciones es un diagrama de comportamiento,
+        más precisamente, uno de los cuatro diagramas de interacción. Muestra una cierta
+        vista sobre los aspectos dinámicos de los sistemas modelados. Aunque un diagrama global
+        de las interacciones es una representación gráfica de una interacción, éste se distingue
+        fuertemente de los diagramas de secuencia y de comunicación, dos de los otros diagramas
+        de interacción. De hecho, algunos elementos gráficos del diagrama global de las
+        interacciones están tomados del diagrama de actividades, otro diagrama de comportamiento
+        para el modelado de actividades.
+
+        Los modelos de interacción pueden llegar a ser muy grandes para sistemas complejos.
+        Si el número de líneas de vida participantes y el número de mensajes intercambiados
+        excede una cierta medida, se impone “modularizar” las interacciones y dividir en partes
+        pequeñas, más manejables, de acuerdo a principios universales del diseño de sistemas, que
+        también pueden ser visualizadas con la ayuda de un clásico diagrama de secuencias.
+        La visión de conjunto de toda la interacción, de manera que la Big Picture o bien el
+        cuadro global, puede entonces ser representada con la ayuda del diagrama global de las
+        interacciones, provisto para eso.
+
+    </string>
+
+
+    <string name="btn_jugar">Jugar</string>
+    <string name="btn_acerca">Acerca De</string>
+    <string name="graphic">Grafica de Avances</string>
+    <string name="certificate">Mandar Certificado</string>
+    <string name="mensaje">Large Text</string>
+    <string name="letter">Letra</string>
+    <string name="intro">Intro</string>
+    <string name="next_quiz">Siguiente Quiz</string>
+    <string name="mensaje_result">Large Text</string>
+    <string name="title_game">Ahorcado UML</string>
+    <string name="begin">Empezar</string>
+    <string name="points">Puntuaciones</string>
+    <string name="out">Salir</string>
+    <string name="help">Ayuda</string>
+    <string name="subtitle">Diviertete y Aprende</string>
+    <string name="email_to">De :</string>
+    <string name="email_subjetc">Tema :</string>
+    <string name="email_message">Mensaje :</string>
+    <string name="email_send">Enviar</string>
+    <string name="back_home">Regresar a inicio</string>
+    <string name="title_developer">Desarrollador Android</string>
+    <string name="name_developer">Roman Muñoz Zuñiga</string>
+    <string name="email_developer">roman.mz.cr7@gmail.com</string>
+    <string name="name_university">Institucion</string>
+    <string name="utng_name">Universidad Tecnologica del Norte de Guanajuato</string>
+    <string name="title_topic">Asignatura</string>
+    <string name="topic_name">Desarrollo de Aplicaciones III</string>
+    <string name="title_master">Profesor</string>
+    <string name="name_master">Ing. Anastacio Rodriguez</string>
+    <string name="title_images">Large Text</string>
+    <string name="subtitle_images">Medium Text</string>
+    <string name="register">Registrar</string>
+    <string name="login">Login</string>
+    <string name="title_bd">Base de datos remota</string>
+    <string name="name_user">Nombre Usuario</string>
+    <string name="password_login">Contraseña</string>
+    <string name="go_home">Ir a inicio</string>
+    <string name="reg">Register</string>
+    <string name="welcome_reg">Bienvenido, Registrate.</string>
+    <string name="pass_reg">Contraseña</string>
+    <string name="name_user_reg">Nombre usuario</string>
+    <string name="welcome_user">BIENVENIDO</string>
+    <string name="graphics_topic">Avance y calificación por tema</string>
+    <string name="graphic_point">Grafica por tema</string>
+    <string name="title_activity_cronometro">Cronometro</string>
+
+    <string name="app_name1">Visor</string>
+    <string name="text">Albun de Fotos. Pulsa los botones para verlas</string>
+    <string name="Anterior">Anterior</string>
+    <string name="Siguiente">Siguiente</string>
+    <string name="img1">Texto foto 1</string>
+    <string name="title_activity_linterna">Linterna</string>
+    <string name="title_activity_radio__layaout">Radio_Layaout</string>
+
+</resources>

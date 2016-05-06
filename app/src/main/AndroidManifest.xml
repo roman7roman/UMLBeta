@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.herprogramacion.uml">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/uml"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.RicoPaRico">
+        <activity
+            android:name=".otros.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ConNavigationDrawer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".otros.ActividadConfiguracion"
+            android:label="@string/titulo_actividad_configuracion"
+            android:parentActivityName=".otros.ActividadPrincipal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.herprogramacion.uml.otros.ActividadPrincipal" />
+        </activity>
+        <!-- Actividades del paquete ui -->
+        <activity android:name=".otros.ActividadPrincipal" />
+        <activity android:name=".otros.AyudaActivity" />
+        <activity android:name=".otros.ActividadVideo" />
+        <activity android:name=".login.Login" />
+        <activity android:name=".otros.PrivilegiosActivity" />
+        <activity android:name=".otros.CapitulosActivity" />
+        <activity android:name=".otros.TabsActivity" />
+        <activity android:name=".quiz.LoginInterno" />
+        <activity android:name=".quiz.FormularioInterno" />
+
+        <!-- Actividades del paquete ui -->
+
+
+        <!-- Actividades del paquete login -->
+        <activity android:name=".login.Register" />
+        <activity android:name=".login.ReadComments" />
+
+        <!-- Actividades del paquete login -->
+
+
+        <!-- Actividades del paquete quiz -->
+        <activity android:name=".quiz.PreguntaActivity" />
+        <activity android:name=".quiz.ResultadoActivity" />
+        <!-- Actividades del paquete quiz -->
+
+
+        <!-- Actividades del paquete correo -->
+        <activity android:name=".correo.EnviarCorreoActivity" />
+        <!-- Actividades del paquete correo -->
+
+        <activity android:name=".otros.ActividadAudio" />
+        <activity android:name=".quiz.Grafica" />
+
+        <!-- Actividades del paquete juego -->
+        <activity android:name=".ahorcado_uml.JuegoActivity" />
+        <activity android:name=".ahorcado_uml.MainAhorcado" />
+        <!-- Actividades del paquete juego -->
+
+        <activity android:name=".grafica.GraficoActivityDos" />
+
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".otros.Cronometro"
+            android:label="@string/title_activity_cronometro"
+            android:parentActivityName=".otros.ActividadPrincipal"
+            android:theme="@style/Theme.RicoPaRico">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.herprogramacion.uml.otros.ActividadPrincipal" />
+        </activity>
+        <activity android:name=".GaleriaUnoActivity" />
+        <activity android:name=".GaleriaDosActivity" />
+        <activity android:name=".GaleriaTresActivity" />
+        <activity android:name=".MenuGaleriaActivity" />
+        <activity
+            android:name=".otros.Linterna"
+            android:label="@string/title_activity_linterna"
+            android:parentActivityName=".otros.ActividadPrincipal"
+            android:theme="@style/Theme.RicoPaRico">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.herprogramacion.uml.otros.ActividadPrincipal" />
+        </activity>
+        <activity
+            android:name=".otros.Radio_Layaout"
+            android:label="@string/title_activity_radio__layaout"
+            android:parentActivityName=".otros.ActividadPrincipal"
+            android:theme="@style/Theme.RicoPaRico">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.herprogramacion.uml.otros.ActividadPrincipal" />
+        </activity>
+    </application>
+
+</manifest>

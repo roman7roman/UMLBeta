@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#20034c">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:src="@drawable/uml"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/list_descripcion_videos"
+            android:id="@+id/txv_lista_audios"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:entries="@array/videos"
+            android:id="@+id/miLista" />
+    </LinearLayout>
+
+</LinearLayout>
